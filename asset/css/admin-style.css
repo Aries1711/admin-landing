@@ -1,0 +1,117 @@
+body {
+    font-family: 'Jost', sans-serif;
+}
+.main-contain{
+padding: 0;
+min-height: 100%;
+}
+
+.fas{
+    color: #4287f5 ;
+}
+nav{
+    font-weight: 550;
+    background-color: white;
+    /* background-image: linear-gradient(to right, #0a32c4 , #a710de); */
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    padding: 0;
+    top: 0;
+    z-index: 2;
+    min-height: 60px;
+}
+.navbar .brand_title{
+    width: 280px;
+    display: flex;
+    height: 60px;
+    background-color: #f7f8ff;
+}
+
+.navbar .brand_title .navbar-brand{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.navbar .brand_title .navbar-but{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    font-size: 30px;
+    display: flex;
+    margin-right: 40px;
+}
+.navbar .brand_title .navbar-brand img{
+    height: 30px;
+    padding-left: 30px;
+    display: block;
+    display: flex;
+    margin: auto;
+}
+.navbar .brand_title button{
+    margin-left: 70px;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    display: flex;
+}
+.navbar .header_panel{
+    height: 60px;
+    display: flex;
+    background-color: #b3b6ff;
+    color: white;
+    box-shadow: 0 2px 5px -3px #4287f5;
+}
+.navbar .header_panel ul{
+    padding-right: 40px;
+}
+.navbar .header_panel ul li {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.navbar .header_panel ul li a{
+    color: white;
+    display: inline;
+}
+.navbar .header_panel ul li a i{
+    font-size: 25px;
+    color: white;
+}
+.navbar .header_panel ul li img{
+    width: 30px;
+    border-radius: 50%;
+    height: auto;
+}
+.main-contain .main-app{
+width: 100%;
+}
+/* sidebar css */
+
+.main-contain .main-app .sidebar-app{
+    width: 280px;
+    display: flex;
+    min-width: 280px;
+    flex: 0 0 280px;
+    float: left;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color:white;
+    height: 100%;
+}
+
+/* end sidebar */
+
+/* main content app css */
+.main-contain .main-app .content-app{
+    width: 100%;
+    padding-left: 290px;
+    padding-top: 70px;
+    padding-right: 10px;
+    float: right;
+    display: flex;
+    background-color: #f7f8ff;
+    height: 100%;
+}
+/* end main content */
