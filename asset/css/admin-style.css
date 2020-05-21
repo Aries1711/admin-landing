@@ -134,67 +134,77 @@ width: 100%;
     margin: 70px 10px 40px 10px;
     height:600px ;
     overflow: auto;
-
-    /* background-color: violet; */
 }
-.main-contain .main-app .sidebar-app .side-container h4{
-    font-size: 14px;
+.main-contain .main-app .sidebar-app .side-container .menu-title h4{
+    font-size: 13px;
     font-weight: 600;
-    color: #5258fa;
+    color: #5a1e8f;
 }
-.main-contain .main-app .sidebar-app .side-container ul{
-    list-style: none;
+.main-contain .main-app .sidebar-app .side-container .row-menu{
+    width: 100%;
+    position: relative;
+    /* background-color: blue; */
 }
-.main-contain .main-app .sidebar-app .side-container ul li{
-    line-height: 40px;
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent{
+    width: 100%;
+    height: 35px;
+    /* background-color: red; */
 }
-.main-contain .main-app .sidebar-app .side-container ul li a{
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a{
     text-decoration: none;
     position: relative;
     color: #68687d;
+    padding-left: 50px;
+    padding-top: 8px;
     font-size: 14px;
     display: block;
     font-weight: 600;
     width: 100%;
+    height: 100%;
+    margin: auto;
 }
-.main-contain .main-app .sidebar-app .side-container ul li a:hover {
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a:hover{
     background-color: #858fff;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 10px;
 }
-.main-contain .main-app .sidebar-app .side-container ul li a span{
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a span {
     color: #9f9fa1;
     transform: translateY(-50%);
     font-size: 15px;
     transition: transform 0.5s;
     position: absolute;
-    top: 50%;
-    left: 160px;
+    top: 45%;
+    left: 220px;
 }
-.main-contain .main-app .sidebar-app .side-container ul li a:hover span{
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a span:hover {
     transform: translateY(-50%) rotate(-180deg);
 }
-.main-contain .main-app .sidebar-app .side-container ul li a i{
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a i{
+    position: absolute;
+    left: 10px;
+    top: 30%;
     color: #abafed;
     font-size: 20px;
-    position: absolute;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 7px;
-    display: block;
-    top: 0%;
-    left: -40px;
-    width: 100%;
-    height: 100%;
-    justify-content: center;
 }
-.main-contain .main-app .sidebar-app .side-container ul li a i:hover{
-    background-color: #858fff;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-child {
+    margin-left: 20px;
+    border-left: solid #994bde 2px;
+    
+    height: auto;
 }
-.main-contain .main-app .sidebar-app .side-container ul li ul li a{
+
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-child ul{
+    margin-bottom: 0px;
+}
+
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-child ul li{
+    list-style: none;
+}
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-child ul li a{
+    text-decoration: none;
     font-weight: 500;
+    font-size: 13px;
+    color: #97a6bf;
 }
 
 /* end sidebar */
