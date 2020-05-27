@@ -50,7 +50,7 @@ nav{
     width: 280px;
     display: flex;
     height: 60px;
-    /* background-color: #0d106e; */
+    background-color: white;
 }
 
 .navbar .brand_title .navbar-brand{
@@ -64,6 +64,10 @@ nav{
     font-size: 30px;
     display: flex;
     margin-right: 40px;
+    color:  #79a1e0 ;
+}
+.navbar .brand_title .navbar-but:hover{
+    color: #4749b5 ;
 }
 .navbar .brand_title .navbar-brand img{
     height: 30px;
@@ -136,9 +140,11 @@ width: 100%;
     overflow: auto;
 }
 .main-contain .main-app .sidebar-app .side-container .menu-title h4{
-    font-size: 13px;
-    font-weight: 600;
-    color: #5a1e8f;
+    font-size: 10px;
+    font-weight: 800;
+    color: #a8a8a8;
+    padding-bottom: 2px;
+    padding-top: 15px;
 }
 .main-contain .main-app .sidebar-app .side-container .row-menu{
     width: 100%;
@@ -147,64 +153,90 @@ width: 100%;
 }
 .main-contain .main-app .sidebar-app .side-container .row-menu .row-parent{
     width: 100%;
-    height: 35px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     /* background-color: red; */
 }
 .main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a{
     text-decoration: none;
     position: relative;
     color: #68687d;
-    padding-left: 50px;
+    padding-left: 55px;
     padding-top: 8px;
-    font-size: 14px;
+    font-size: 15px;
     display: block;
     font-weight: 600;
     width: 100%;
     height: 100%;
     margin: auto;
 }
-.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a:hover{
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a:hover {
     background-color: #858fff;
     border-radius: 10px;
+    color: white;
+}
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a:hover i {
+    background-color: #858fff;
+    border-radius: 10px;
+    color: white;
 }
 .main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a span {
     color: #9f9fa1;
     transform: translateY(-50%);
-    font-size: 15px;
+    font-size: 10px;
     transition: transform 0.5s;
     position: absolute;
     top: 45%;
-    left: 220px;
+    left: 210px;
 }
-.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a span:hover {
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a:hover span {
     transform: translateY(-50%) rotate(-180deg);
+    color: white;
 }
 .main-contain .main-app .sidebar-app .side-container .row-menu .row-parent a i{
     position: absolute;
     left: 10px;
     top: 30%;
-    color: #abafed;
-    font-size: 20px;
+    color: #4f4f4f;
+    font-size: 15px;
 }
 .main-contain .main-app .sidebar-app .side-container .row-menu .row-child {
     margin-left: 20px;
-    border-left: solid #994bde 2px;
+    border-left: solid #ce96ff 2px;
     
     height: auto;
 }
 
 .main-contain .main-app .sidebar-app .side-container .row-menu .row-child ul{
     margin-bottom: 0px;
+    display: none;
+}
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-child .dash-show.show{
+    display: block;
 }
 
 .main-contain .main-app .sidebar-app .side-container .row-menu .row-child ul li{
     list-style: none;
+    padding: 1px;
 }
 .main-contain .main-app .sidebar-app .side-container .row-menu .row-child ul li a{
     text-decoration: none;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    margin:5px;
+    padding-left: 10px;
     color: #97a6bf;
+}
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-child ul li:hover{
+    background-color: #858fff;
+    border-radius: 15px;
+    color: white;
+}
+.main-contain .main-app .sidebar-app .side-container .row-menu .row-child ul li:hover a{
+    color: white;
 }
 
 /* end sidebar */
